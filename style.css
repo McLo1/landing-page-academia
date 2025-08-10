@@ -1,0 +1,123 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+
+    .header-tittle {
+        font-family: "Atom", sans-serif;
+    }
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.Inscreva-se {
+    background-color: #f26835;
+    padding: 12px;
+    border-radius: 12px;
+    color: white;
+}
+
+.Inscreva-se:hover {
+    background-color: #f17b50;
+    padding: 12px;
+    border-radius: 12px;
+    color: white;
+}
+
+.Inscreva-se:active {
+    background-color: #ce613a;
+    padding: 12px;
+    border-radius: 12px;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    transform: translateY(-50px);
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: "Atom", sans-serif;
+    max-width: 420px;
+
+    h1 {
+        font-size: 3.5rem;
+        margin: 0;
+    }
+
+    .btn-Comece {
+        background-color: #f26835;
+        padding: 12px;
+        border-radius: 12px;
+        color: white;
+        text-decoration: none;
+        width: 110px;
+        text-align: center;
+    }
+
+    .btn-Comece:hover {
+        background-color: #f17b50;
+        padding: 12px;
+        border-radius: 12px;
+        color: white;
+    }
+
+    .btn-Comece:active {
+        background-color: #ce613a;
+        padding: 12px;
+        border-radius: 12px;
+        color: white;
+    }
+
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Atom", sans-serif;
+
+}
+
+.feature-content {
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+
+    h1 {
+        font-size:2.0rem;
+    }
+}
+
+.feature-grid {
+    display: flex;
+    gap: 15px;
+}
+
+.feature-item {
+    width: 300px;
+}
